@@ -1,0 +1,8 @@
+#!/bin/bash
+set -euo pipefail
+IFS=$'\n\t'
+
+bundle install
+
+echo "\n Performing tests for the first time...";
+rake
