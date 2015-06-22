@@ -9,7 +9,8 @@ TODO: Delete this and the text above, and describe your gem
 Add this line to your application's Gemfile:
 
 ```ruby
-gem 'forestrap'
+# Not published to RubyGems.org yet
+gem 'forestrap-less', path: '/cd/to/your/project/forestrap-less'
 ```
 
 And then execute:
