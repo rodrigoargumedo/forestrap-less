@@ -1,5 +1,12 @@
 language: ruby
 rvm:
   - 2.2.1
-before_script:
-- gem install bundler
+before_install:
+  - gem update bundler
+os:
+  - osx
+  - linux
+
+matrix:
+  allow_failures:
+    - os: osx
