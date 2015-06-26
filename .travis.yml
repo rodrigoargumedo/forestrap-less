@@ -10,7 +10,7 @@ gemfile:
 os:
   - osx
   - linux
-
+cache: bundler
 matrix:
   allow_failures:
     - os: osx
